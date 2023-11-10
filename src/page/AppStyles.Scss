@@ -1,0 +1,19 @@
+body{
+    background: url('https://images3.alphacoders.com/812/812062.png');
+    background-size: 100%;
+}
+
+div{
+    display: grid;
+
+    grid-template-columns: repeat(5, 5fr);
+    gap: 2px;
+
+    img{
+border-radius: 20px;
+width: 150px;
+    }
+}
+
+
+
